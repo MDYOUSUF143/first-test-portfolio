@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    clear:both;
+}
+.link-button{
+    text-decoration-color: none;
+    background-image: -o-linear-gradient(lightSamon, tomato);
+    background-color: turquoise;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: royalblue;
+    fint-weight: 700;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+.experiences-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exerience-part{
+border-top:6px;    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#Baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#full-me{
+    border-left: 7px solid;
+    border-image: -o-linear-gradient(180deg, rgb(26, 184, 110);
+    border-image-slice: 4;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    color:blueviolet;
+}
+.experiences-area div{
+    overflow: hidden;
+}
